@@ -1,0 +1,90 @@
+/**/
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+
+body{ background: #c5c5c5; }
+
+#card_container {
+  margin: 2rem auto .5rem auto;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 0;
+  border: 1px solid black;
+  /* background: paleturquoise; */
+}
+
+header { margin-top: .4rem; font-family: "Courier New"}
+
+main { width: 95%; margin: auto; }
+
+main fieldset {
+  padding: 10px 0;
+  border: none;
+  border-top: .2px solid grey;
+}
+
+main fieldset legend {
+  font-family: "cursive";
+  text-align: center;
+  padding: 5px;
+}
+
+main fieldset table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+main fieldset table thead th { 
+  text-transform: uppercase; 
+  text-align: center;
+}
+
+main fieldset table  th {
+  font-size: .6rem;
+  font-family: Pussycat, Algerian, Broadway;;
+  padding: 5px;
+  text-align: left;
+}
+
+main fieldset table th, main fieldset table td { border: .1px solid grey; }
+
+footer p { font-size: .8rem; }
+
+.btn_container {
+  width: 95%;
+  margin: .3rem auto 4rem auto;
+}
+
+.btn_container button {
+  display: block;
+  width: 100%;
+  margin: .1rem auto;
+  padding: .4rem .6rem;
+  border: 1px solid grey;
+  outline: none;
+  text-transform: uppercase;
+  border-radius: 10px;
+  font-size: .7rem;
+  user-select: none;
+}
+
+
+
+
+
+
+/**/
